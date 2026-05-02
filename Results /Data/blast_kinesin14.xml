@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>pdb</BlastOutput_db>
+  <BlastOutput_query-ID>Query_6943103</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>673</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_6943103</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>673</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>pdb|5WDH|A</Hit_id>
+  <Hit_def>Chain A, Kinesin-like protein KIFC1 [Homo sapiens]</Hit_def>
+  <Hit_accession>5WDH_A</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>731.865</Hsp_bit-score>
+      <Hsp_score>1888</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>663</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>356</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>LKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQC</Hsp_qseq>
+      <Hsp_hseq>LKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPPRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQC</Hsp_hseq>
+      <Hsp_midline>LKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPP RHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>pdb|2NCD|A</Hit_id>
+  <Hit_def>Chain A, PROTEIN (Kinesin motor NCD) [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>2NCD_A</Hit_accession>
+  <Hit_len>420</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.605</Hsp_bit-score>
+      <Hsp_score>784</Hsp_score>
+      <Hsp_evalue>5.50158e-97</Hsp_evalue>
+      <Hsp_query-from>247</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>399</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>QLEEKERRLQTSEAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>ELQAIHEKVKTEHAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline>+L+    +++T  AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EIYNE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>pdb|4GKR|A</Hit_id>
+  <Hit_def>Chain A, Neck and C-terminal motor domain of Kar3 [Nakaseomyces glabratus CBS 138] &gt;pdb|4GKR|B Chain B, Neck and C-terminal motor domain of Kar3 [Nakaseomyces glabratus CBS 138]</Hit_def>
+  <Hit_accession>4GKR_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>1.18622e-95</Hsp_evalue>
+      <Hsp_query-from>297</Hsp_query-from>
+      <Hsp_query-to>662</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>227</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>378</Hsp_align-len>
+      <Hsp_qseq>RRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATG------TRKGQGGECEIRRAGPGSEEL---TVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSN---KESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQ</Hsp_qseq>
+      <Hsp_hseq>RRALHNELQELRGNIRVYCRIRPPLPHEDDNIEHIKVQPFDDDNGDQGMTI--------NRGNSQVIP-------FKFDKIFDQQETNDEIFKEVGQLIQSSLDGYNVCIFAYGQTGSGKTYTMLN-PG-----DGIVPATINHIFSWIDKLAARGWSYKVSCEFIEIYNENIVDLLRSGAPSQENNDRNADSKHEIRH----DQELKTTYITNITTCVLDSRDTVDKVLKRANKLRSTASTAANEHSSRSHSIFIIHLEGKNEGTGEKSQGILNLVDLAGSERLNSSMVVG----ERLRETQSINKSLSCLGDVIHALNSPDGQKRHIPFRNSKLTYLLQYSLIGSSKTLMFVNISPAALHLNETINSLRFASKVNN</Hsp_hseq>
+      <Hsp_midline>RR LHN+LQEL+GNIRV+CR+RP LP E      + + P          T          RG     P       F FD++F      DE+F+E+  L+QS+LDGY VCIFAYGQTGSGKT+TM   PG     +G++P  + H+FS   +L+ +GW+Y     ++EIYNE + DLL +G        +    + EIR      +EL    +TN     +     VD +L  A + R+ A TA NE SSRSHS+F + + G++   G +    L+LVDLAGSERL+  + +G    ERLRETQ+IN SLS LG VI AL++   ++ H+P+RNSKLTYLLQ SL GS+K LMFVNISP   +++E++NSLRFASKVN </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>pdb|5W3D|A</Hit_id>
+  <Hit_def>Chain A, Protein claret segregational [Drosophila melanogaster] &gt;pdb|5W3D|B Chain B, Protein claret segregational [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>5W3D_A</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.982</Hsp_bit-score>
+      <Hsp_score>772</Hsp_score>
+      <Hsp_evalue>1.9124e-95</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>EAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>HAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVP----ESVGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline> AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P    +  G+IPR +  LF   +     GW Y   A+++EIYNE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>pdb|1CZ7|A</Hit_id>
+  <Hit_def>Chain A, MICROTUBULE MOTOR PROTEIN NCD [Drosophila melanogaster] &gt;pdb|1CZ7|B Chain B, MICROTUBULE MOTOR PROTEIN NCD [Drosophila melanogaster] &gt;pdb|1CZ7|C Chain C, MICROTUBULE MOTOR PROTEIN NCD [Drosophila melanogaster] &gt;pdb|1CZ7|D Chain D, MICROTUBULE MOTOR PROTEIN NCD [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>1CZ7_A</Hit_accession>
+  <Hit_len>406</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>300.442</Hsp_bit-score>
+      <Hsp_score>768</Hsp_score>
+      <Hsp_evalue>7.21979e-95</Hsp_evalue>
+      <Hsp_query-from>267</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>413</Hsp_align-len>
+      <Hsp_qseq>AEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>TEVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline> EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EIYNE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>pdb|3U06|A</Hit_id>
+  <Hit_def>Chain A, Protein claret segregational [Drosophila melanogaster] &gt;pdb|3U06|B Chain B, Protein claret segregational [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>3U06_A</Hit_accession>
+  <Hit_len>412</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>1.54247e-94</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>EAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>HAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRDNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline> AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+ NIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EIYNE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>pdb|1N6M|A</Hit_id>
+  <Hit_def>Chain A, Claret segregational protein [Drosophila melanogaster] &gt;pdb|1N6M|B Chain B, Claret segregational protein [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>1N6M_A</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>1.81686e-94</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>EAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>HAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNIKRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline> AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EIYNE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ I  SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>pdb|8YUE|A</Hit_id>
+  <Hit_def>Chain A, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YUE|B Chain B, Protein claret segregational [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>8YUE_A</Hit_accession>
+  <Hit_len>390</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>3.55325e-94</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>389</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>EAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>HAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIKNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline> AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EI NE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>pdb|8YY2|C</Hit_id>
+  <Hit_def>Chain C, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY2|D Chain D, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY3|C Chain C, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY3|D Chain D, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY4|C Chain C, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY4|D Chain D, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY5|C Chain C, Protein claret segregational [Drosophila melanogaster] &gt;pdb|8YY5|D Chain D, Protein claret segregational [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>8YY2_C</Hit_accession>
+  <Hit_len>409</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.13</Hsp_bit-score>
+      <Hsp_score>762</Hsp_score>
+      <Hsp_evalue>5.49848e-94</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>178</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>421</Hsp_align-len>
+      <Hsp_qseq>EAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>HAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQTGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIKNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline> AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQTGSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EI NE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>pdb|4ETP|A</Hit_id>
+  <Hit_def>Chain A, Kinesin-like protein KAR3 [Saccharomyces cerevisiae S288C]</Hit_def>
+  <Hit_accession>4ETP_A</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>297.745</Hsp_bit-score>
+      <Hsp_score>761</Hsp_score>
+      <Hsp_evalue>6.36335e-94</Hsp_evalue>
+      <Hsp_query-from>262</Hsp_query-from>
+      <Hsp_query-to>663</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>233</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>LSSSQAEVASLRQETVAQAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLL---FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQ----GGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQC</Hsp_qseq>
+      <Hsp_hseq>IAALKEKIAALKEKIKDTELGMKELNEILIKEETVRRTLHNELQELRGNIRVYLRIRPALKNLENSDTSLINVNEFDDNSGVQSMEVTKI---------------QNTAQVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVAIFAYGQTGSGKTFTMLN-PG-----DGIIPSTISHIFNWINKLKTKGWDYKVNAEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIRHDQETKTTTITNVTS-VKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGSNAKTGAHSYGTLNLVDLAGSERINVSQVVG----DRLRETQNINKSLSALGDVIHALGQPDSTKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKVNST</Hsp_hseq>
+      <Hsp_midline>+++ + ++A+L+++       + E  E L   E  RR LHN+LQEL+GNIRV+ R+RP L         L+    F    G  S   T++                     H+F FD++F       +VF+E+  LVQS+LDGY V IFAYGQTGSGKTFTM   PG     +G+IP  + H+F+   +L  +GW Y   A ++EIYNE + DLL +     +    G + EIR                V +  E+ V+ +L  A + R+ A TA NE SSRSHS+F + +SG ++  G      L+LVDLAGSER++    +G    +RLRETQ IN SLS LG VI AL   +S   H+P+RNSKLTYLLQ SL G +K LMFVNISP   +++E+LNSLRFASKVN  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>pdb|1F9T|A</Hit_id>
+  <Hit_def>Chain A, KINESIN-LIKE PROTEIN KAR3 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1F9T_A</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.204</Hsp_bit-score>
+      <Hsp_score>757</Hsp_score>
+      <Hsp_evalue>7.31376e-94</Hsp_evalue>
+      <Hsp_query-from>297</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>169</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>379</Hsp_align-len>
+      <Hsp_qseq>RRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLL---FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQ----GGECEIRRAGPGSEELTVTNARYVPVSC----EKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVN</Hsp_qseq>
+      <Hsp_hseq>RRTLHNELQELRGNIRVYCRIRPALKNLENSDTSLINVNEFDDNSGVQSMEVTKI---------------QNTAQVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTMLN-PG-----DGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIRH-----DQETKTTTITNVTSCKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGSNAKTGAHSYGTLNLVDLAGSERINVSQVVG----DRLRETQNINKSLSCLGDVIHALGQPDSTKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKVN</Hsp_hseq>
+      <Hsp_midline>RR LHN+LQEL+GNIRV+CR+RP L         L+    F    G  S   T++                     H+F FD++F       +VF+E+  LVQS+LDGY VCIFAYGQTGSGKTFTM   PG     +G+IP  + H+F+   +L  +GW Y     ++EIYNE + DLL +     +    G + EIR      ++ T T       SC    E+ V+ +L  A + R+ A TA NE SSRSHS+F + +SG ++  G      L+LVDLAGSER++    +G    +RLRETQ IN SLS LG VI AL   +S   H+P+RNSKLTYLLQ SL G +K LMFVNISP   +++E+LNSLRFASKVN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>pdb|3L1C|A</Hit_id>
+  <Hit_def>Chain A, Protein claret segregational [Drosophila melanogaster] &gt;pdb|3L1C|B Chain B, Protein claret segregational [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>3L1C_A</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>295.819</Hsp_bit-score>
+      <Hsp_score>756</Hsp_score>
+      <Hsp_evalue>1.92435e-93</Hsp_evalue>
+      <Hsp_query-from>259</Hsp_query-from>
+      <Hsp_query-to>663</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>175</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>412</Hsp_align-len>
+      <Hsp_qseq>EAALSSSQAEVASLRQETVA-------QAALLTEREERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQC</Hsp_qseq>
+      <Hsp_hseq>HAALST---EVVHLRQRTEELLRCNEQQAAELETCKEQLFQSNMERKELHNTVMDLRGNIRVFCRIRPPLESEENRMCCTWTY-------HDESTV-------ELQSIDAQAKSKMGQQIFSFDQVFHPLSSQSDIFEMVSPLIQSALDGYNICIFAYGQSGSGKTYTMDGVPES----VGVIPRTVDLLFDSIRGYRNLGWEYEIKATFLEIYNEVLYDLLS-----NEQKDMEIRMAKNNKNDIYVSNITEETVLDPNHLRHLMHTAKMNRATASTAGNERSSRSHAVTKLELIGRHAEKQEISVGSINLVDLAGSE--------SPKTSTRMTETKNINRSLSELTNVILALLQKQDHIPYRNSKLTHLLMPSLGGNSKTLMFINVSPFQDCFQESVKSLRFAASVNSC</Hsp_hseq>
+      <Hsp_midline> AALS+   EV  LRQ T         QAA L   +E+L    MER+ LHN + +L+GNIRVFCR+RP L  E         +        D  T        E +   + A +   +  FSFD+VF P S Q ++FE ++ L+QSALDGY +CIFAYGQ+GSGKT+TM+G P       G+IPR +  LF   +     GW Y   A+++EIYNE + DLL+      +  + EIR A     ++ V+N     V     +  L+H A+ NRA A TA NERSSRSH+V +L++ G H+ +       ++LVDLAGSE         P    R+ ET+ IN SLS L  VI+AL  K+ H+PYRNSKLT+LL  SLGG++K LMF+N+SP ++   ES+ SLRFA+ VN C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>pdb|3T0Q|A</Hit_id>
+  <Hit_def>Chain A, AGR253Wp [Eremothecium gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>3T0Q_A</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.345</Hsp_bit-score>
+      <Hsp_score>734</Hsp_score>
+      <Hsp_evalue>1.23257e-90</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>666</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>347</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>216</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>LKGNIRVFCRVRPVLPGEPTPPPGLLL--FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGEC------EIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIG</Hsp_qseq>
+      <Hsp_hseq>LRGNIRVYCRVRPPLLNEPQDMSHILIEKFNEAKGAQS-----LTINRNEGR--ILS--------YNFQFDMIFEPSHTNKEIFEEIRQLVQSSLDGYNVCIFAYGQTGSGKTYTMLN--AGD----GMIPMTLSHIFKWTANLKERGWNYEMECEYIEIYNETILDLLRDFKSHDNIDEILDSQKHDIRHDHE-KQGTYITNVTRMKMTSTSQVDTILKKASKMRSTAATRSNERSSRSHSVFMVHINGRNLHTGETSQGKLNLVDLAGSERINSSAVTG----ERLRETQNINKSLSCLGDVIYALNTPDAGKRYIPFRNSKLTYLLQYSLVGDSKTLMFVNIPPDPNHISETLNSLRFASKVNSTKIA</Hsp_hseq>
+      <Hsp_midline>L+GNIRV+CRVRP L  EP     +L+  F    G  S     L+++R++ R   LS        ++F FD +F P     E+FEEI  LVQS+LDGY VCIFAYGQTGSGKT+TM     GD    G+IP  L H+F     L  +GW Y     Y+EIYNET+ DLL          E       +IR      +   +TN   + ++   +VD +L  A + R+ A T  NERSSRSHSVF + I+G +   G      L+LVDLAGSER++     G    ERLRETQ IN SLS LG VI AL+  ++   ++P+RNSKLTYLLQ SL G +K LMFVNI P   ++SE+LNSLRFASKVN   I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>pdb|3KAR|A</Hit_id>
+  <Hit_def>Chain A, KINESIN-LIKE PROTEIN KAR3 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>3KAR_A</Hit_accession>
+  <Hit_len>346</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>2.16672e-86</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>338</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>GNIRVFCRVRPVLPGEPTPPPGLLL---FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQ----GGECEIRRAGPGSEELTVTNARYVPVSC----EKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVN</Hsp_qseq>
+      <Hsp_hseq>GNIRVYCRIRPALKNLENSDTSLINVNEFDDNSGVQSMEVTKI---------------QNTAQVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTMLN-PG-----DGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIRH-----DQETKTTTITNVTSCKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGSNAKTGAHSYGTLNLVDLAGSERINVSQVVG----DRLRETQNINKSLSCLGDVIHALGQPDSTKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKVN</Hsp_hseq>
+      <Hsp_midline>GNIRV+CR+RP L         L+    F    G  S   T++                     H+F FD++F       +VF+E+  LVQS+LDGY VCIFAYGQTGSGKTFTM   PG     +G+IP  + H+F+   +L  +GW Y     ++EIYNE + DLL +     +    G + EIR      ++ T T       SC    E+ V+ +L  A + R+ A TA NE SSRSHS+F + +SG ++  G      L+LVDLAGSER++    +G    +RLRETQ IN SLS LG VI AL   +S   H+P+RNSKLTYLLQ SL G +K LMFVNISP   +++E+LNSLRFASKVN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>pdb|1F9W|A</Hit_id>
+  <Hit_def>Chain A, KINESIN-LIKE PROTEIN KAR3 [Saccharomyces cerevisiae] &gt;pdb|1F9W|B Chain B, KINESIN-LIKE PROTEIN KAR3 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1F9W_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>5.63147e-86</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>LKGNIRVFCRVRPVLPGEPTPPPGLLL---FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQ----GGECEIRRAGPGSEELTVTNARYVPVSC----EKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVN</Hsp_qseq>
+      <Hsp_hseq>MRGNIRVYCRIRPALKNLENSDTSLINVNEFDDNSGVQSMEVTKI---------------QNTAQVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTMLN-PG-----DGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIRH-----DQETKTTTITNVTSCKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGSNAKTGAHSYGTLNLVDLAGSARINVSQVVG----DRLRETQNINKSLSCLGDVIHALGQPDSTKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKVN</Hsp_hseq>
+      <Hsp_midline>++GNIRV+CR+RP L         L+    F    G  S   T++                     H+F FD++F       +VF+E+  LVQS+LDGY VCIFAYGQTGSGKTFTM   PG     +G+IP  + H+F+   +L  +GW Y     ++EIYNE + DLL +     +    G + EIR      ++ T T       SC    E+ V+ +L  A + R+ A TA NE SSRSHS+F + +SG ++  G      L+LVDLAGS R++    +G    +RLRETQ IN SLS LG VI AL   +S   H+P+RNSKLTYLLQ SL G +K LMFVNISP   +++E+LNSLRFASKVN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>pdb|1F9U|A</Hit_id>
+  <Hit_def>Chain A, KINESIN-LIKE PROTEIN KAR3 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1F9U_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>6.53396e-86</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>LKGNIRVFCRVRPVLPGEPTPPPGLLL---FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQ----GGECEIRRAGPGSEELTVTNARYVPVSC----EKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVN</Hsp_qseq>
+      <Hsp_hseq>MRGNIRVYCRIRPALKNLENSDTSLINVNEFDDNSGVQSMEVTKI---------------QNTAQVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTMLN-PG-----DGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIRH-----DQETKTTTITNVTSCKLESEEMVEIILKKANKLRSTASTASNEHSSRSHSIFIIHLSGSNAKTGAHSYGTLNLVDLAGSERINVSQVVG----DRLRETQNIKKSLSCLGDVIHALGQPDSTKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKVN</Hsp_hseq>
+      <Hsp_midline>++GNIRV+CR+RP L         L+    F    G  S   T++                     H+F FD++F       +VF+E+  LVQS+LDGY VCIFAYGQTGSGKTFTM   PG     +G+IP  + H+F+   +L  +GW Y     ++EIYNE + DLL +     +    G + EIR      ++ T T       SC    E+ V+ +L  A + R+ A TA NE SSRSHS+F + +SG ++  G      L+LVDLAGSER++    +G    +RLRETQ I  SLS LG VI AL   +S   H+P+RNSKLTYLLQ SL G +K LMFVNISP   +++E+LNSLRFASKVN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>pdb|1F9V|A</Hit_id>
+  <Hit_def>Chain A, KINESIN-LIKE PROTEIN KAR3 [Saccharomyces cerevisiae]</Hit_def>
+  <Hit_accession>1F9V_A</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.018</Hsp_bit-score>
+      <Hsp_score>702</Hsp_score>
+      <Hsp_evalue>7.58104e-86</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>661</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>339</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>159</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>369</Hsp_align-len>
+      <Hsp_qseq>LKGNIRVFCRVRPVLPGEPTPPPGLLL---FPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQ----GGECEIRRAGPGSEELTVTNARYVPVSC----EKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKES---HVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVN</Hsp_qseq>
+      <Hsp_hseq>MRGNIRVYCRIRPALKNLENSDTSLINVNEFDDNSGVQSMEVTKI---------------QNTAQVHEFKFDKIFDQQDTNVDVFKEVGQLVQSSLDGYNVCIFAYGQTGSGKTFTMLN-PG-----DGIIPSTISHIFNWINKLKTKGWDYKVNCEFIEIYNENIVDLLRSDNNNKEDTSIGLKHEIRH-----DQETKTTTITNVTSCKLESEEMVEIILKKANKLRSTASTASNEHSSASHSIFIIHLSGSNAKTGAHSYGTLNLVDLAGSERINVSQVVG----DRLRETQNINKSLSCLGDVIHALGQPDSTKRHIPFRNSKLTYLLQYSLTGDSKTLMFVNISPSSSHINETLNSLRFASKVN</Hsp_hseq>
+      <Hsp_midline>++GNIRV+CR+RP L         L+    F    G  S   T++                     H+F FD++F       +VF+E+  LVQS+LDGY VCIFAYGQTGSGKTFTM   PG     +G+IP  + H+F+   +L  +GW Y     ++EIYNE + DLL +     +    G + EIR      ++ T T       SC    E+ V+ +L  A + R+ A TA NE SS SHS+F + +SG ++  G      L+LVDLAGSER++    +G    +RLRETQ IN SLS LG VI AL   +S   H+P+RNSKLTYLLQ SL G +K LMFVNISP   +++E+LNSLRFASKVN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>pdb|4H1G|A</Hit_id>
+  <Hit_def>Chain A, Maltose binding protein-CaKar3 motor domain fusion protein [synthetic construct]</Hit_def>
+  <Hit_accession>4H1G_A</Hit_accession>
+  <Hit_len>715</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>1.1477e-76</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>665</Hsp_query-to>
+      <Hsp_hit-from>372</Hsp_hit-from>
+      <Hsp_hit-to>713</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>LKGNIRVFCRVRPVLPGEPTPPPGL---LLFPSGPGGPSDPPTR-LSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKE-SHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVI</Hsp_qseq>
+      <Hsp_hseq>LKGNIRVFCRIRNVSSSSSSSSSSSSEDIIQYEAPQDINDESKQELVITRNINNNFS---------NLRFLFDKIFEREQSNDLVFEELSQLIQCSLDGTNVCVFAYGQTGSGKTFTM-----SHPT-NGMIPLSLKKIFNDIEELKEKGWSYTVRGKFIEIYNEAIVDLL--NPKIDPNTKYEIKHDDIAGKT-TVTNVSTIDIKSPEQAITILNQANKKRSTAATKSNDHSSRSHSIFIIDLQGYNSLTKESSYGTLNLIDLAGSERLNNSRA----EGDRLKETQAINKSLSCLGDVIHSLNLKDGSHVPYRNSKLTYLLKHSLGGNSKTLMFVNISPLTKDLNETINSLRFATKVNNTRI</Hsp_hseq>
+      <Hsp_midline>LKGNIRVFCR+R V     +        ++    P   +D   + L ++R+     +            F FD++F      D VFEE++ L+Q +LDG  VC+FAYGQTGSGKTFTM       P   G+IP +L+ +F+  +EL  +GW+Y+    ++EIYNE + DLL    +     + EI+      +  TVTN   + +   ++   +L+ A + R+ A T  N+ SSRSHS+F + + G +S         L+L+DLAGSERL+   A    E +RL+ETQAIN SLS LG VI +L+ K+ SHVPYRNSKLTYLL++SLGG++K LMFVNISPL ++++E++NSLRFA+KVN   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>pdb|5WDE|A</Hit_id>
+  <Hit_def>Chain A, Kinesin-like protein KIFC3 [Homo sapiens]</Hit_def>
+  <Hit_accession>5WDE_A</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.128</Hsp_bit-score>
+      <Hsp_score>627</Hsp_score>
+      <Hsp_evalue>3.7285e-75</Hsp_evalue>
+      <Hsp_query-from>308</Hsp_query-from>
+      <Hsp_query-to>660</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>353</Hsp_align-len>
+      <Hsp_qseq>KGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKV</Hsp_qseq>
+      <Hsp_hseq>KGNIRVIARVRPV-----TKEDG-----EGP----EATNAVTFDADDDSIIHLLHKGKPVS---FELDKVFSPQASQQDVFQEVQALVTSCIDGFNVCIFAYGQTGAGKTYTMEG-TAENP---GINQRALQLLFSEVQE-KASDWEYTITVSAAEIYNEVLRDLLGKEPQE----KLEIRLCPDGSGQLYVPGLTEFQVQSVDDINKVFEFGHTNRTTEFTNLNEHSSRSHALLIVTVRGVDCSTGLRTTGKLNLVDLAGSERVGKSGAEGS----RLREAQHINKSLSALGDVIAALRSRQGHVPFRNSKLTYLLQDSLSGDSKTLMVVQVSPVEKNTSETLYSLKFAERV</Hsp_hseq>
+      <Hsp_midline>KGNIRV  RVRPV     T   G      GP    +    ++    D+    L     P +   F  D+VF P + Q +VF+E+  LV S +DG+ VCIFAYGQTG+GKT+TMEG    +P   G+  RAL+ LFS  QE     W Y+   S  EIYNE +RDLL    ++    + EIR    GS +L V       V    +++ +      NR    T  NE SSRSH++  + + G   S GL+    L+LVDLAGSER+    A G     RLRE Q IN SLS LG VI AL +++ HVP+RNSKLTYLLQ+SL G +K LM V +SP+E+N SE+L SL+FA +V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>pdb|3H4S|A</Hit_id>
+  <Hit_def>Chain A, Kinesin-like calmodulin-binding protein [Arabidopsis thaliana] &gt;pdb|4FRZ|A Chain A, Kinesin-like calmodulin-binding protein [Arabidopsis thaliana] &gt;pdb|4FRZ|B Chain B, Kinesin-like calmodulin-binding protein [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>3H4S_A</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>246.514</Hsp_bit-score>
+      <Hsp_score>628</Hsp_score>
+      <Hsp_evalue>1.34583e-74</Hsp_evalue>
+      <Hsp_query-from>297</Hsp_query-from>
+      <Hsp_query-to>664</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>336</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>RRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCV</Hsp_qseq>
+      <Hsp_hseq>RKRYYNTIEDMKGKIRVYCRIRPLNEKESSEREKQMLTTVDEFTVEHPW------KDDKRKQHI-------------YDRVFDMRASQDDIFEDTKYLVQSAVDGYNVCIFAYGQTGSGKTFTIYGHES-NP---GLTPRATKELFNILKRDSKR-FSFSLKAYMVELYQDTLVDLLLP--KSARRLKLEIKKDSKGM--VFVENVTTIPISTLEELRMILERGSERRHVSGTNMNEESSRSHLILSVVIESIDLQTQSAARGKLSFVDLAGSERVKKSGSAG----NQLKEAQSINKSLSALGDVIGALSSGNQHIPYRNHKLTMLMSDSLGGNAKTLMFVNVSPAESNLDETYNSLLYASRVRTIV</Hsp_hseq>
+      <Hsp_midline>R+R +N ++++KG IRV+CR+RP+   E +     +L          P       + D+R+  +             +DRVF   + QD++FE+   LVQSA+DGY VCIFAYGQTGSGKTFT+ G    +P   GL PRA + LF++ +  S + +++S  A  VE+Y +T+ DLL    +  +  + EI++   G   + V N   +P+S  +E+  +L    + R V+ T  NE SSRSH +  + I              LS VDLAGSER+    + G     +L+E Q+IN SLS LG VI ALS+   H+PYRN KLT L+ +SLGG+AK LMFVN+SP E N+ E+ NSL +AS+V   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>pdb|1SDM|A</Hit_id>
+  <Hit_def>Chain A, kinesin heavy chain-like protein [Solanum tuberosum] &gt;pdb|3CNZ|A Chain A, Kinesin heavy chain-like protein [unidentified] &gt;pdb|3CNZ|B Chain B, Kinesin heavy chain-like protein [unidentified] &gt;pdb|3COB|A Chain A, Kinesin heavy chain-like protein [unidentified] &gt;pdb|3COB|C Chain C, Kinesin heavy chain-like protein [unidentified]</Hit_def>
+  <Hit_accession>1SDM_A</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>236.884</Hsp_bit-score>
+      <Hsp_score>603</Hsp_score>
+      <Hsp_evalue>4.07637e-71</Hsp_evalue>
+      <Hsp_query-from>305</Hsp_query-from>
+      <Hsp_query-to>664</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>QELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIAMLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGA----PLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCV</Hsp_qseq>
+      <Hsp_hseq>EDMKGKIRVYCRLRPLCEKE------IIAKERNAIRSVDEFTVEHLWKDDKAKQHM-------------YDRVFDGNATQDDVFEDTKYLVQSAVDGYNVCIFAYGQTGSGKTFTIYGADS-NP---GLTPRAMSELFRIMKKDSNK-FSFSLKAYMVELYQDTLVDLLLP--KQAKRLKLDIKKDSKGM--VSVENVTVVSISTYEELKTIIQRGSEQRHTTGTLMNEQSSRSHLIVSVIIE----STNLQTQAIARGKLSFVDLAGSERVKKSGSAG----NQLKEAQSINKSLSALGDVISALSSGNQHIPYRNHKLTMLMSDSLGGNAKTLMFVNISPAESNLDETHNSLTYASRVRSIV</Hsp_hseq>
+      <Hsp_midline>+++KG IRV+CR+RP+   E      ++          D  T   L + D+ +  +             +DRVF   + QD+VFE+   LVQSA+DGY VCIFAYGQTGSGKTFT+ G    +P   GL PRA+  LF + ++ S + +++S  A  VE+Y +T+ DLL    ++ +  + +I++   G   ++V N   V +S  +E+  ++    + R    T  NE+SSRSH +  + I     S  LQ  A     LS VDLAGSER+    + G     +L+E Q+IN SLS LG VI ALS+   H+PYRN KLT L+ +SLGG+AK LMFVNISP E N+ E+ NSL +AS+V   V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>pdb|5HLE|A</Hit_id>
+  <Hit_def>Chain A, Protein claret segregational,Minus-end kinesin-1/kinesin-14,Protein claret segregational [synthetic construct] &gt;pdb|5HNW|K Chain K, Protein claret segregational,KINESIN HEAVY CHAIN ISOFORM 5C [synthetic construct] &gt;pdb|5HNX|K Chain K, Protein claret segregational,kinesin-1/kinesin-14,Protein claret segregational [synthetic construct]</Hit_def>
+  <Hit_accession>5HLE_A</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.853</Hsp_bit-score>
+      <Hsp_score>551</Hsp_score>
+      <Hsp_evalue>1.69256e-63</Hsp_evalue>
+      <Hsp_query-from>287</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>EERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>KEQLFQSNMERKELHNTVMDLRGNIKVMCRFRPL--NEAEILRGDKFIPKFKG---------------EETVVIQGKP-------YVFDRVLPPNTTQEQVYNACAKQIVKDVLEGYNGTIFAYGQTSSGKTHTMEGKLH-DPQLMGIIPRIAHDIFDHIYSMD-ENLEFAIKVSYFEIYLDKIRDLLDVS--KTNLAVHEDKNRVPYVKGCT---ERFV--SSPEEVMDVIDEGKSNRHVAVTNMNEHSSRSHSIFLINIKQENVETEKKLSGKLYLVDLAGSEKVSKTGAEGA----VLDEAKNINKSLSALGNVISALAEGTTHVPYRDSKMTRILQDSLGGNCRTTIVICCSPSVFNEAETKSTLMFAASVNSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline>+E+L    MER+ LHN + +L+GNI+V CR RP+   E     G    P   G               E    + G P       + FDRV PP + Q++V+   A  +V+  L+GY   IFAYGQT SGKT TMEG    DPQL G+IPR    +F     +  +   ++   SY EIY + +RDLL     K      E +   P  +  T    R+V  S  +EV  ++   + NR VA T  NE SSRSHS+F + I  E+     +    L LVDLAGSE++    A G      L E + IN SLS LG VI AL+   +HVPYR+SK+T +LQ+SLGG+ +  + +  SP   N +E+ ++L FA+ VN C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>pdb|5HNY|K</Hit_id>
+  <Hit_def>Chain K, Protein claret segregational, Kinesin-1/Kinesin-14, Protein claret segregational [synthetic construct] &gt;pdb|5HNZ|K Chain K, Protein claret segregational,Protein claret segregational,Plus-end directed kinesin-1/kinesin-14,Protein claret segregational,Protein claret segregational [synthetic construct]</Hit_def>
+  <Hit_accession>5HNY_K</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>210.69</Hsp_bit-score>
+      <Hsp_score>535</Hsp_score>
+      <Hsp_evalue>3.50803e-61</Hsp_evalue>
+      <Hsp_query-from>287</Hsp_query-from>
+      <Hsp_query-to>672</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>350</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>387</Hsp_align-len>
+      <Hsp_qseq>EERLHGLEMERRRLHNQLQELKGNIRVFCRVRPVLPGEPTPPPGLLLFPSGPGGPSDPPTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVFPPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSNKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASKVNQCVIGTAQANR</Hsp_qseq>
+      <Hsp_hseq>KEQLFQSNMERKELHNTVMDLRGNIKVMCRFRPL--NEAEILRGDKFIPKFKG---------------EETVVIQGKP-------YVFDRVLPPNTTQEQVYNACAKQIVKDVLEGYNGTIFAYGQTSSGKTHTMEGKLH-DPQLMGIIPRIAHDIFDHIYSMD-ENLEFAIKVSYFEIYLDKIRDLLDVS--KTNLAVHEDKNRVPYVKGCT---ERFV--SSPEEVMDVIDEGKSNRHVAVTNMNEHSSRSHSIFLINIKQENVETEKKLSGKLYLVDLAGSEKVSKTGAEGA----VLDEAKNINKSLSALGNVISALAEGTTHVPYRDSKMTRILQDSLGGNCRTTIVICCSPSVFNEAETKSTLMFGQRAKSCKMTKAKRNR</Hsp_hseq>
+      <Hsp_midline>+E+L    MER+ LHN + +L+GNI+V CR RP+   E     G    P   G               E    + G P       + FDRV PP + Q++V+   A  +V+  L+GY   IFAYGQT SGKT TMEG    DPQL G+IPR    +F     +  +   ++   SY EIY + +RDLL     K      E +   P  +  T    R+V  S  +EV  ++   + NR VA T  NE SSRSHS+F + I  E+     +    L LVDLAGSE++    A G      L E + IN SLS LG VI AL+   +HVPYR+SK+T +LQ+SLGG+ +  + +  SP   N +E+ ++L F  +   C +  A+ NR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>pdb|3B6U|A</Hit_id>
+  <Hit_def>Chain A, Kinesin-like protein KIF3B [Homo sapiens] &gt;pdb|3B6U|B Chain B, Kinesin-like protein KIF3B [Homo sapiens]</Hit_def>
+  <Hit_accession>3B6U_A</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.216</Hsp_bit-score>
+      <Hsp_score>513</Hsp_score>
+      <Hsp_evalue>3.92313e-58</Hsp_evalue>
+      <Hsp_query-from>354</Hsp_query-from>
+      <Hsp_query-to>659</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>DERRGTLSGAPAPPTRHD----FSFDRVFPPGSGQDEVFEEIAM-LVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRAGPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQIS----GEHSSRGLQCGAPLSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALSN-KESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK</Hsp_qseq>
+      <Hsp_hseq>DVKLGQVSVKNPKGTAHEMPKTFTFDAVYDWNAKQFELYDETFRPLVDSVLQGFNGTIFAYGQTGTGKTYTMEG-IRGDPEKRGVIPNSFDHIFTHISR--SQNQQYLVRASYLEIYQEEIRDLLS----KDQTKRLELKER-PDTGVYVKDLSSFVTKSV-KEIEHVMNVGNQNRSVGATNMNEHSSRSHAIFVITIECSEVGLDGENHIRVG-KLNLVDLAGSERQAKTGAQG----ERLKEATKINLSLSALGNVISALVDGKSTHIPYRDSKLTRLLQDSLGGNAKTVMVANVGPASYNVEETLTTLRYANR</Hsp_hseq>
+      <Hsp_midline>D + G +S      T H+    F+FD V+   + Q E+++E    LV S L G+   IFAYGQTG+GKT+TMEG   GDP+  G+IP +  H+F+       Q   Y   ASY+EIY E +RDLL+    K Q    E++   P +       + +V  S  KE++ ++++  QNR+V  T  NE SSRSH++F + I     G      ++ G  L+LVDLAGSER     A G    ERL+E   IN SLS LG VI AL + K +H+PYR+SKLT LLQ+SLGG+AK +M  N+ P   NV E+L +LR+A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>pdb|6A20|A</Hit_id>
+  <Hit_def>Chain A, Kinesin family member 13B [Rattus norvegicus]</Hit_def>
+  <Hit_accession>6A20_A</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>6.4224e-57</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>666</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>PTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVF--------PPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRA---GPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAP------LSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALS------NKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK----VNQCVIG</Hsp_qseq>
+      <Hsp_hseq>PINTNLSKGDAR-----GQPKI-----FAYDHCFWSMDESVREKCAGQDDVFKCLGENILQNAFDGYNACIFAYGQTGSGKSYTMMG-TADQP---GLIPRLCSGLFERTQKEENEEQSFKVEVSYMEIYNEKVRDLLDP---KGSRQTLKVREHSVLGPYVDGLS-----KLAVTSYKDIESLMSEGNKSRTVAATNMNEESSRSHAVFKITLT--HTLYDVKSGTSGEKVGKLSLVDLAGSERATKTGAAG----DRLKEGSNINKSLTTLGLVISALADQGAGKNKNKFVPYRDSVLTWLLKDSLGGNSKTAMVATVSPAADNYDETLSTLRYADRAKHIINHAVVN</Hsp_hseq>
+      <Hsp_midline>P   +LS+ D R     G P       F++D  F           +GQD+VF+ +   ++Q+A DGY  CIFAYGQTGSGK++TM G     P   GLIPR    LF   Q+   +  ++    SY+EIYNE VRDLL     KG     ++R     GP  + L+      + V+  K++++L+    ++R VA T  NE SSRSH+VF++ ++  H+   ++ G        LSLVDLAGSER     A G    +RL+E   IN SL+TLGLVI AL+      NK   VPYR+S LT+LL++SLGG++K  M   +SP  +N  E+L++LR+A +    +N  V+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>pdb|6A1Z|A</Hit_id>
+  <Hit_def>Chain A, Kinesin family member 13B [Rattus norvegicus]</Hit_def>
+  <Hit_accession>6A1Z_A</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>1.12695e-56</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>665</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>PTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVF--------PPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRA---GPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAP------LSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALS------NKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK----VNQCVI</Hsp_qseq>
+      <Hsp_hseq>PINTNLSKGDAR-----GQPKI-----FAYDHCFWSMDESVREKYAGQDDVFKCLGENILQNAFDGYNACIFAYGQTGSGKSYTMMG-TADQP---GLIPRLCSGLFERTQKEENEEQSFKVEVSYMEIYNEKVRDLLDP---KGSRQTLKVREHSVLGPYVDGLS-----KLAVTSYKDIESLMSEGNKSRTVAATNMNEESSRSHAVFKITLT--HTLYDVKSGTSGEKVGKLSLVDLAGSERATKTGAAG----DRLKEGSNINKSLTTLGLVISALADQGAGKNKNKFVPYRDSVLTWLLKDSLGGNSKTAMVATVSPAADNYDETLSTLRYADRAKHIINHAVV</Hsp_hseq>
+      <Hsp_midline>P   +LS+ D R     G P       F++D  F           +GQD+VF+ +   ++Q+A DGY  CIFAYGQTGSGK++TM G     P   GLIPR    LF   Q+   +  ++    SY+EIYNE VRDLL     KG     ++R     GP  + L+      + V+  K++++L+    ++R VA T  NE SSRSH+VF++ ++  H+   ++ G        LSLVDLAGSER     A G    +RL+E   IN SL+TLGLVI AL+      NK   VPYR+S LT+LL++SLGG++K  M   +SP  +N  E+L++LR+A +    +N  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>pdb|7D8V|A</Hit_id>
+  <Hit_def>Chain A, Kinesin family member 13B [Rattus norvegicus]</Hit_def>
+  <Hit_accession>7D8V_A</Hit_accession>
+  <Hit_len>437</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>1.93413e-56</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>666</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>350</Hsp_align-len>
+      <Hsp_qseq>PTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVF--------PPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRA---GPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAP------LSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALS------NKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK----VNQCVIG</Hsp_qseq>
+      <Hsp_hseq>PINTNLSKGDAR-----GQPKI-----FAYDHCFWSMDESVREKYAGQDDVFKCLGENILQNAFDGYNACIFAYGQTGSGKSYTMMG-TADQP---GLIPRLCSGLFERTQKEENEEQSFKVEVSYMEIYNEKVRDLLDP---KGSRQTLKVREHSVLGPYVDGLS-----KLAVYSYKDIESLMSEGNKSRTVAATNMNEESSRSHAVFKITLT--HTLYDVKSGTSGEKVGKLSLVDLAGSERATKTGAAG----DRLKEGSNINKSLTTLGLVISALADQGAGKNKNKFVPYRDSVLTWLLKDSLGGNSKTAMVATVSPAADNYDETLSTLRYADRAKHIINHAVVN</Hsp_hseq>
+      <Hsp_midline>P   +LS+ D R     G P       F++D  F           +GQD+VF+ +   ++Q+A DGY  CIFAYGQTGSGK++TM G     P   GLIPR    LF   Q+   +  ++    SY+EIYNE VRDLL     KG     ++R     GP  + L+      + V   K++++L+    ++R VA T  NE SSRSH+VF++ ++  H+   ++ G        LSLVDLAGSER     A G    +RL+E   IN SL+TLGLVI AL+      NK   VPYR+S LT+LL++SLGG++K  M   +SP  +N  E+L++LR+A +    +N  V+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>pdb|5ZBS|A</Hit_id>
+  <Hit_def>Chain A, Kinesin family member 13B [Rattus norvegicus] &gt;pdb|5ZBS|B Chain B, Kinesin family member 13B [Rattus norvegicus] &gt;pdb|5ZBS|C Chain C, Kinesin family member 13B [Rattus norvegicus]</Hit_def>
+  <Hit_accession>5ZBS_A</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.978</Hsp_bit-score>
+      <Hsp_score>502</Hsp_score>
+      <Hsp_evalue>1.95732e-56</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>665</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>PTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVF--------PPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRA---GPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAP------LSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALS------NKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK----VNQCVI</Hsp_qseq>
+      <Hsp_hseq>PINTNLSKGDAR-----GQPKI-----FAYDHCFWSMDESVREKCAGQDDVFKCLGENILQNAFDGYNACIFAYGQTGSGKSYTMMG-TADQP---GLIPRLCSGLFERTQKEENEEQSFKVEVSYMEIYNEKVRDLLDP---KGSRQTLKVREHSVLGPYVDGLS-----KLAVTSYKDIESLMSEGNKSRTVAATNMNEESSRSHAVFKITLT--HTLYDVKSGTSGEKVGKLSLVDLAGSERATKTGAAG----DRLKEGSNINKSLTTLGLVISALADQGAGKNKNKFVPYRDSVLTWLLKDSLGGNSKTAMVATVSPAADNYDETLSTLRYADRAKHIINHAVV</Hsp_hseq>
+      <Hsp_midline>P   +LS+ D R     G P       F++D  F           +GQD+VF+ +   ++Q+A DGY  CIFAYGQTGSGK++TM G     P   GLIPR    LF   Q+   +  ++    SY+EIYNE VRDLL     KG     ++R     GP  + L+      + V+  K++++L+    ++R VA T  NE SSRSH+VF++ ++  H+   ++ G        LSLVDLAGSER     A G    +RL+E   IN SL+TLGLVI AL+      NK   VPYR+S LT+LL++SLGG++K  M   +SP  +N  E+L++LR+A +    +N  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>pdb|5ZBR|A</Hit_id>
+  <Hit_def>Chain A, Kinesin family member 13B [Rattus norvegicus] &gt;pdb|5ZBR|B Chain B, Kinesin family member 13B [Rattus norvegicus] &gt;pdb|5ZBR|C Chain C, Kinesin family member 13B [Rattus norvegicus]</Hit_def>
+  <Hit_accession>5ZBR_A</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>2.12465e-56</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>665</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>349</Hsp_align-len>
+      <Hsp_qseq>PTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVF--------PPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRA---GPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAP------LSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALS------NKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK----VNQCVI</Hsp_qseq>
+      <Hsp_hseq>PINTNLSKGDAR-----GQPKI-----FAYDHCFWSMDESVREKYAGQDDVFKCLGENILQNAFDGYNACIFAYGQTGSGKSYTMMG-TADQP---GLIPRLCSGLFERTQKEENEEQSFKVEVSYMEIYNEKVRDLLDP---KGSRQTLKVREHSVLGPYVDGLS-----KLAVTSYKDIESLMSEGNKSRTVAATNMNEESSRSHAVFKITLT--HTLYDVKSGTSGEKVGKLSLVDLAGSERATKTGAAG----DRLKEGSNINKSLTTLGLVISALADQGAGKNKNKFVPYRDSVLTWLLKDSLGGNSKTAMVATVSPAADNYDETLSTLRYADRAKHIINHAVV</Hsp_hseq>
+      <Hsp_midline>P   +LS+ D R     G P       F++D  F           +GQD+VF+ +   ++Q+A DGY  CIFAYGQTGSGK++TM G     P   GLIPR    LF   Q+   +  ++    SY+EIYNE VRDLL     KG     ++R     GP  + L+      + V+  K++++L+    ++R VA T  NE SSRSH+VF++ ++  H+   ++ G        LSLVDLAGSER     A G    +RL+E   IN SL+TLGLVI AL+      NK   VPYR+S LT+LL++SLGG++K  M   +SP  +N  E+L++LR+A +    +N  V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>pdb|3GBJ|A</Hit_id>
+  <Hit_def>Chain A, KIF13B protein [Homo sapiens] &gt;pdb|3GBJ|B Chain B, KIF13B protein [Homo sapiens] &gt;pdb|3GBJ|C Chain C, KIF13B protein [Homo sapiens]</Hit_def>
+  <Hit_accession>3GBJ_A</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>1.04213e-55</Hsp_evalue>
+      <Hsp_query-from>345</Hsp_query-from>
+      <Hsp_query-to>659</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>339</Hsp_align-len>
+      <Hsp_qseq>PTRLSLSRSDERRGTLSGAPAPPTRHDFSFDRVF--------PPGSGQDEVFEEIA-MLVQSALDGYPVCIFAYGQTGSGKTFTMEGGPGGDPQLEGLIPRALRHLFSVAQELSGQGWTYSFVASYVEIYNETVRDLLATGTRKGQGGECEIRRA---GPGSEELTVTNARYVPVSCEKEVDALLHLARQNRAVARTAQNERSSRSHSVFQLQISGEHSSRGLQCGAP------LSLVDLAGSERLDPGLALGPGERERLRETQAINSSLSTLGLVIMALS------NKESHVPYRNSKLTYLLQNSLGGSAKMLMFVNISPLEENVSESLNSLRFASK</Hsp_qseq>
+      <Hsp_hseq>PVNTNLSKGDAR-----GQPKV-----FAYDHCFWSMDESVKEKYAGQDIVFKCLGENILQNAFDGYNACIFAYGQTGSGKSYTMMG-TADQP---GLIPRLCSGLFERTQKEENEEQSFKVEVSYMEIYNEKVRDLLDP---KGSRQTLKVREHSVLGPYVDGLSK-----LAVTSYKDIESLMSEGNKSRTVAATNMNEESSRSHAVFKITLT--HTLYDVKSGTSGEKVGKLSLVDLAGSERATKTGAAG----DRLKEGSNINKSLTTLGLVISALADQSAGKNKNKFVPYRDSVLTWLLKDSLGGNSKTAMVATVSPAADNYDETLSTLRYADR</Hsp_hseq>
+      <Hsp_midline>P   +LS+ D R     G P       F++D  F           +GQD VF+ +   ++Q+A DGY  CIFAYGQTGSGK++TM G     P   GLIPR    LF   Q+   +  ++    SY+EIYNE VRDLL     KG     ++R     GP  + L+      + V+  K++++L+    ++R VA T  NE SSRSH+VF++ ++  H+   ++ G        LSLVDLAGSER     A G    +RL+E   IN SL+TLGLVI AL+      NK   VPYR+S LT+LL++SLGG++K  M   +SP  +N  E+L++LR+A +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>184641</Statistics_db-num>
+      <Statistics_db-len>53559324</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
